@@ -1,0 +1,34 @@
+src/*.exe
+src/foocoin
+src/foocoind
+src/test_foocoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.foocoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+foocoin-qt
+Foocoin-Qt.app
+
+# Unit-tests
+Makefile.test
+foocoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
